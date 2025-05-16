@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "antlr-debug",
+            "request": "launch",
+            "name": "Debug Current Grammar",
+            "input": "input-valido2.txt",
+            "visualParseTree": true,
+            "printParseTree": true,
+            "grammar": "gramatica.g4"
+        },
+    ]
+}
