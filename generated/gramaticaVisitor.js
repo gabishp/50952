@@ -66,5 +66,11 @@ export default class gramaticaVisitor extends antlr4.tree.ParseTreeVisitor {
 	}
 
 
+	// Visit a parse tree produced by gramaticaParser#special_char.
+	visitSpecial_char(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
 
 }

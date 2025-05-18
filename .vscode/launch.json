@@ -5,7 +5,7 @@
             "type": "antlr-debug",
             "request": "launch",
             "name": "Debug Current Grammar",
-            "input": "input-valido2.txt",
+            "input": "input-valido1.txt",
             "visualParseTree": true,
             "printParseTree": true,
             "grammar": "gramatica.g4"

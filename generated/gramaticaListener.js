@@ -95,5 +95,14 @@ export default class gramaticaListener extends antlr4.tree.ParseTreeListener {
 	}
 
 
+	// Enter a parse tree produced by gramaticaParser#special_char.
+	enterSpecial_char(ctx) {
+	}
+
+	// Exit a parse tree produced by gramaticaParser#special_char.
+	exitSpecial_char(ctx) {
+	}
+
+
 
 }

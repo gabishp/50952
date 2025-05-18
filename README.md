@@ -13,7 +13,7 @@ digit      = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 special_char = "*" | "-" | "/" | "," ;
 
 
-para ir comprobando los input, hay que cambiar la linea del archivo launch.json que dice "input": ".........." por el archivo que quieras analizar
+para ir comprobando los input, hay que cambiar la linea del archivo launch.json que dice "input": ".........." por el archivo que quieras analizar y ademas en el index en la linea 13 tambien se le tiene que cambiar el nombre del archivo a analizar
 
 en el input-invalido1 el error esta en el parser ya el * debe estar separado de los números
 en el input-invalido2 el error es bastante simple y es que no se puede terminar con , una sentencia

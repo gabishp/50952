@@ -1,0 +1,24 @@
+{
+  "name": "50952",
+  "version": "1.0.0",
+  "description": "ejercicio:\r schedule   = time_field { \" \" time_field } ;\r time_field = value | range | step | wildcard | list | predefined ; \r value = number ;\r range      = number \"-\" number [\"/\" number ] ; \r step       = (wildcard | range | value) \"/\" number ;\r wildcard   = \"*\" ;\r list       = item { \",\" item } ;\r item       = value | range ;\r predefined = \"@yearly\" | \"@monthly\" | \"@weekly\" | \"@daily\" | \"@hourly\" | \"@reboot\" ;\r number     = digit { digit } ;\r digit      = \"0\" | \"1\" | \"2\" | \"3\" | \"4\" | \"5\" | \"6\" | \"7\" | \"8\" | \"9\" ;\r special_char = \"*\" | \"-\" | \"/\" | \",\" ;",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabishp/50952.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabishp/50952/issues"
+  },
+  "homepage": "https://github.com/gabishp/50952#readme",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}
